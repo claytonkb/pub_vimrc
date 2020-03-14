@@ -1,0 +1,5 @@
+dragvisuals.vim
+Mark--Karkat
+vim-easymotion
+vim-neatstatus
+vim-surround

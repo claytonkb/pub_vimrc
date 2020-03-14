@@ -1,0 +1,51 @@
+Pathogen:
+    https://github.com/tpope/vim-pathogen
+
+    1. Place pathogen.vim in vimfiles/autoload directory.
+        mkdir -p ~/.vim/autoload ~./vim/bundle
+        curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+    2. Add this line to your vimrc:
+        execute pathogen#infect()
+
+    Prereqs:
+        vim-gtk
+        git
+        curl
+    
+    To install a pathogen-compatible vim library:
+        cd ~/.vim/bundle
+        git clone <repo-path>
+
+    Unless the library requires special treatment, it should just install
+        next time you open Vim.
+
+DragVisuals:
+    https://vimawesome.com/plugin/dragvisuals-vim-safe-and-sound
+    https://github.com/fisadev/dragvisuals.vim
+
+Mark:
+    https://vimawesome.com/plugin/mark-karkat
+    https://github.com/vim-scripts/Mark--Karkat
+    1) sudo cp plugin/mark.vim to /usr/share ... vim74/plugin
+    2) sudo cp autoload/mark.vim to /usr/share ... vim74/autoload
+    3) NOTE:
+        ,# and ,/ mappings created by plugin/mark.vim interfere with my
+        line-comment mappings; edit these out in that file (search "Leader")
+
+Status line (neatstatus):
+    https://vimawesome.com/plugin/vim-neatstatus
+    https://github.com/maciakl/vim-neatstatus
+
+Surround.vim:
+    https://github.com/tpope/vim-surround
+
+EasyMotion:
+    https://github.com/easymotion/vim-easymotion
+
+Tabularize:
+    https://github.com/godlygeek/tabular
+
+Nerdtree:
+    ??
+
+
